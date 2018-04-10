@@ -21,7 +21,7 @@ export default [
 {
   title: 'Twitch API',
   image: '/images/portfolio/twitch.png',
-  body: 'This web app project was for a module at University. It required us to create a website that functions similar to a normal lottery. I built this in ASP.net as was required, however we had to use Visual Basic and so the backend isn\'t very clean. Using ASP.net was not a great experience, everything felt outdated and there were a lack of resources for every problem I came accross. I did however get 81% mark for this work.',
+  body: 'A challenge from the Front End section on FreeCodeCamp. First time checking out APIs and learnt a lot from it. Throwing in some simple Javascript to add a bit of interaction for the user. The design looks horrible, but I was going for functionality in this project.',
   link: 'https://codepen.io/kcoulsy/pen/LQPmgq'
 },
 {

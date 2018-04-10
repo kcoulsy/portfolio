@@ -71,7 +71,7 @@ export default class Portfolio extends React.Component {
 //     <div class="col-sm-6 col-lg-4 project">
 //       <a href="https://codepen.io/kcoulsy/pen/LQPmgq"><img src="img/twitch.png" alt="" width="100%" /></a>
 //       <h3>Twitch API</h3>
-//       <p>A challenge from the Front End section on FreeCodeCamp. First time checking out APIs and learnt a lot from it. Throwing in some simple Javascript to add a bit of interaction for the user. The design looks horrible, but I was going for functionality in this project.</p>
+//       <p></p>
 //     </div>
 //     <div class="col-sm-6 col-lg-4 project">
 //       <a href="https://codepen.io/kcoulsy/pen/wpLOpw"><img src="img/wiki.png" alt="" width="100%" /></a>
