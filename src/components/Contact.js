@@ -117,9 +117,8 @@ class Contact extends React.Component {
           <p>contact@kristiancoulson.co.uk</p>
           <p>Or on social media</p>
           <ul>
-            <a href="#"><li>Facebook</li></a>
-            <a href="#"><li>LinkedIn</li></a>
-            <a href="#"><li>Facebook</li></a>
+            <a href="https://www.facebook.com/kristiancoulson"><li>Facebook</li></a>
+            <a href="https://www.linkedin.com/in/kristiancoulson/"><li>LinkedIn</li></a>
           </ul>
         </div>
         </div>

@@ -18,13 +18,13 @@ My primary experience is with front end, however my eventual goal is to become a
         <div className="profile-icons">
           <ul>
             <li>
-              <a href="#"><img src="/images/social/Facebook.png"/></a>
+              <a href="https://www.facebook.com/kristiancoulson"><img src="/images/social/facebook.png"/></a>
             </li>
             <li>
-              <a href="#"><img src="/images/social/LinkedIn.png"/></a>
+              <a href="https://www.linkedin.com/in/kristiancoulson/"><img src="/images/social/linkedin.png"/></a>
             </li>
             <li>
-              <a href="#"><img src="/images/social/GitHub.png"/></a>
+              <a href="https://github.com/kcoulsy"><img src="/images/social/github.png"/></a>
             </li>
           </ul>
         </div>
