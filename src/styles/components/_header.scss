@@ -1,0 +1,24 @@
+.header {
+  color: white;
+  margin-bottom: $m-size;
+}
+
+.header-items {
+
+  min-width: 696px;
+  list-style: none;
+  padding: 20px 0 0 0;
+  li {
+    display: inline;
+    padding-right: 10px;
+  }
+  a {
+    text-decoration: none;
+    color: $off-black;
+  }
+}
+@media (min-width: $desktop-breakpoint){
+  .header {
+    margin-bottom: $l-size;
+  }
+}

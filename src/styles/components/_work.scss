@@ -1,0 +1,28 @@
+.work-container {
+  margin-bottom: 80px;
+}
+.work-main {
+  max-width: 70%;
+}
+.work-section {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    margin-top: 40px;
+}
+
+.work-desc {
+  max-width: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  h3 {
+    margin: 0;
+  }
+  p {
+    padding: 0;
+    padding-top: 10px;
+    margin: 0;
+  }
+}

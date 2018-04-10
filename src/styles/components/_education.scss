@@ -1,0 +1,27 @@
+.edu-container {
+  padding-bottom: 40px;
+  border-bottom: 1px solid $grey;
+}
+.edu-section {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-top: 40px;
+
+}
+.edu-desc {
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  h3 {
+    margin: 0;
+  }
+  p {
+    padding: 0;
+    padding-top: 10px;
+    margin: 0;
+  }
+
+}

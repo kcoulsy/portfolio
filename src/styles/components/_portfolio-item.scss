@@ -1,0 +1,27 @@
+.box {
+  width: 390px;
+  height: 293px;
+  border: 0.5px solid $off-black;
+  margin-bottom: 25px;
+}
+
+.box-title {
+  display: flex;
+  justify-content: space-around;
+  h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.box-body {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0;
+  p {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  width: 100%;
+}

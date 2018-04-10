@@ -1,0 +1,38 @@
+.profile-desc {
+  max-width: 80rem;
+}
+.profile-photo {
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-around;
+  img {
+      border-radius: 50%;
+  }
+}
+
+.profile-title {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile-desc {
+  width: 100%;
+}
+
+.profile-icons {
+  list-style: none;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  ul {
+      padding: 0 0 0 0;
+  }
+  li {
+    display: inline;
+    padding-right: 10px;
+  }
+  img {
+    width: 75px;
+  }
+}

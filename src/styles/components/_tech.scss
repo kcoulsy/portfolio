@@ -1,0 +1,13 @@
+.tech-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  padding-bottom: 40px;
+  border-bottom: 1px solid $grey;
+}
