@@ -33,7 +33,7 @@ export default [
 {
   title: 'PHP REST Api with React',
   image: '/images/portfolio/phprest.jpg',
-  body: 'This is my first dive into PHP for the backend. I created a REST api and made a simple application to perform CRUD operations on the Userlist. There are more details on my GitHub Repo for this project. Something to note is that 1and1 is a horrible host for this project. I could not edit the apache settings which is a big part of this project. Works perfect locally.',
+  body: 'This is my first dive into PHP for the backend. I created a REST api and made a simple application to perform CRUD operations on the Userlist. There are more details on my GitHub Repo for this project. Something to note is that 1and1 is a horrible host for this project. I could not edit the apache settings which is a big part of this project. This prevents Update and Delete responses from working and there are URL issues. Works perfect locally.',
   link: 'http://phprest.kristiancoulson.co.uk/index.php'
 },
 
