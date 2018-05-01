@@ -5,7 +5,7 @@ class Profile extends React.Component {
     return (
       <div>
         <div className="profile-photo">
-          <img class="circle-image" src="/images/me.png" alt="" width="200px" height="200px" />
+          <img class="circle-image" src="/images/me.jpg" alt="" width="200px" height="200px" />
         </div>
         <div className="profile-title">
           <h2>Kristian Coulson</h2>
