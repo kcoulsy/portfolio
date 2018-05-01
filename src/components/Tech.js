@@ -10,6 +10,7 @@ class Tech extends React.Component {
       </div>
 
       <div className="tech-container">
+        <div className="tech-desc">
         <div>
           <ul>
             <li>HTML5/CSS</li>
@@ -44,7 +45,8 @@ class Tech extends React.Component {
               <li>Shopify/Woocommerce</li><li>Amazon FBA</li>
             </ul>
           </div>
-            
+
+      </div>
       </div>
       </div>
     )

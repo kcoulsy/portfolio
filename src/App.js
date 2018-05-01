@@ -6,7 +6,6 @@ import Header from './components/Header'
 import Profile from './components/Profile';
 import Portfolio from './components/Portfolio';
 import CV from './components/CV';
-import Education from './components/Education';
 import Contact from './components/Contact';
 
 import './App.css';
@@ -42,7 +41,6 @@ class App extends Component {
                     <Route exact path="/profile" component={Profile} />
                     <Route exact path="/portfolio" component={Portfolio} />
                     <Route exact path="/cv" component={CV} />
-                    <Route exact path="/education" component={Education} />
                     <Route exact path="/contact" component={Contact} />
                     <Route exact path="/portfolio" component={Portfolio} />
                     <Route render={() => <div>Not Found</div>} />

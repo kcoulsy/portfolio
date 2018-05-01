@@ -24,7 +24,7 @@ export default class PortfolioItem extends React.Component {
   render(){
     return (
       <div className="box">
-        <a href="#" onClick={this.handleClick}><img src={this.props.image} width="100%"/></a>
+        <a href="#" onClick={this.handleClick}><img src={this.props.image} width="100%" height="100%" alt={this.props.title}/></a>
           <Modal
             isOpen={!!this.state.isOpen}
             onRequestClose={this.handleCloseModal}
@@ -34,7 +34,7 @@ export default class PortfolioItem extends React.Component {
             >
             <div className="modal-box">
 
-              <img src={this.props.image} width="100%"/>
+              <img src={this.props.image} width="100%" alt={this.props.title}/>
               <h3 className="modal__title">{this.props.title}</h3>
               <div className="modal__body">
                 <p>{this.props.body}</p>

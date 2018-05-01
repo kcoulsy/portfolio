@@ -1,4 +1,10 @@
 .tech-container {
+
+  display: flex;
+  justify-content: space-around;
+}
+.tech-desc {
+  width: 800px;
   display: flex;
   justify-content: space-between;
   flex-direction: row;

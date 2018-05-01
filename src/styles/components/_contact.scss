@@ -1,7 +1,7 @@
-.content {
+.contact-content {
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content:space-around;
 }
 .form {
   padding: 25px 0;
@@ -60,15 +60,28 @@
 }
 
 .direct {
-  width: 80%;
   padding-left: 25px;
+  max-width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  ul {
+    padding: 0;
+    margin: 0;
+  }
   li {
     padding: 0;
+    margin: 0;
     list-style: none;
-    font-weight: bold;
+
   }
   a {
+    font-weight: bold;
     text-decoration: none;
     color: $grey;
   }
+}
+.direct-row {
+  width: 100%;
+  text-align: center;
 }

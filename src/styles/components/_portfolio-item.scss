@@ -1,8 +1,15 @@
 .box {
-  width: 390px;
-  height: 293px;
-  border: 0.5px solid $off-black;
-  margin-bottom: 25px;
+  width: 33.3%;
+  min-width: 350px;
+  border: none;
+  margin: 0;
+  padding: 0;
+  img {
+    opacity: 0.9;
+  }
+  img:hover {
+    opacity: 1.0;
+}
 }
 
 .box-title {

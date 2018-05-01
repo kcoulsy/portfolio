@@ -35,8 +35,8 @@ class Edu extends React.Component {
           </div>
         </div>
 
-        <div className="edu-section">
-          <div className="edu-desc">
+        <div className="edu-section ">
+          <div className="edu-desc edu-line">
             <div>
               <h3>North Halifax Grammar School</h3>
               <p><i>11 GCSEs </i>including Maths (A*) / Science (AA) / ICT (A) / English (BB)</p>

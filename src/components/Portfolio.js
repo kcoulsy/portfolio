@@ -1,5 +1,7 @@
 import React from 'react';
 // import { TransitionGroup, CSSTransition } from "react-transition-group";
+import anime from 'animejs';
+
 import PortfolioItem from './PortfolioItem';
 import data from './portfolio-data';
 
@@ -10,6 +12,25 @@ export default class Portfolio extends React.Component {
     this.state = {
       selectedOption: undefined
     }
+  }
+  componentDidMount() {
+    anime({
+      targets: 'div.box',
+      translateY: [
+        { value: 200, duration: 0 },
+        {value: 0, duration: 500}
+      ],
+      opacity:[{
+        value: 0, duration: 0
+      },{
+        value: 1, duration: 500
+      }],
+
+        easing: 'easeInOutSine',
+      delay: (target, index)=>{
+        return index * 250;
+      }
+    });
   }
 
   handleOpenModal = (project) => {

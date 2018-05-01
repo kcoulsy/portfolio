@@ -14,21 +14,22 @@ class Work extends React.Component {
         <div className="work-section">
           <div className="work-desc">
             <div className="work-main">
-              <h3>Next Retail Halifax</h3>
-              <p>Sales Assistant</p>
+              <h3>Novo Nutrition</h3>
+              <p>Social Manager</p>
 
             </div>
             <div>
-              (September 2012 - August 2014)
+              (May 2014, January 2018 - Present)
             </div>
           </div>
 
           <div className="work-desc">
             <ul>
-                  <li>Performed a wide spectrum of roles such as postage of samples to clients, filing and organisation of
-  documents, market research and, IT support.</li>
-  <li>Controlled the company social media and marketing accounts.</li>
-  <li>Main responsibility has been organisation of products on Amazon.co.uk</li>
+                  <li>Controlled the company social media and marketing accounts. A large portion of this role was spent
+creating content and interacting with customers.</li>
+  <li>A large responsibility has been organisation of products on Amazon.co.uk</li>
+  <li>Performed a wide spectrum of roles such as postage of samples to clients, filing and organisation of
+documents, market research and, IT support.</li>
                 </ul>
             </div>
           </div>
